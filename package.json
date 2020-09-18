@@ -51,5 +51,14 @@
       "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "lint-staged": {
+    "*.{js,vue}": [
+      "vue-cli-service lint",
+      "git add -A"
+    ],
+    "*.{html,vue,css,sass,scss}": [
+      "yarn stylelint"
+    ]
   }
 }

@@ -1,0 +1,23 @@
+// 在vue.config.js中配置引入
+$themeColor: #457bf8;
+$themeHoverColor: #8498fd;
+$tcolor: #222d33; // 主要颜色
+$mcolor: #5e727d; // 次要颜色
+$subMenuBg: #1f2d3d;
+$subMenuHover: #001528;
+$subMenuActiveText: #f4f4f5;
+$menuBg: #304156;
+$menuHover: #263445;
+$menuText: #bfcbd9;
+$menuActiveText: #409eff;
+
+$sideBarWidth: 210px;
+$topHeight: 72px;
+
+// The :export directive is the magic sauce for webpack
+// https://mattferderer.com/use-sass-variables-in-typescript-and-javascript
+:export {
+  menuBg: $menuBg;
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+}

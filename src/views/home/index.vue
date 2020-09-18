@@ -2,11 +2,11 @@
  * @Description: 
  * @Author: lxd
  * @Date: 2020-09-17 17:24:42
- * @LastEditTime: 2020-09-18 15:12:10
+ * @LastEditTime: 2020-09-18 15:14:44
 -->
 <template>
   <div>
-    111
+    11111
     <count-item :count.sync="num"></count-item>
   </div>
 </template>

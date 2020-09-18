@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: lxd
  * @Date: 2020-09-18 11:01:59
- * @LastEditTime: 2020-09-18 13:50:52
+ * @LastEditTime: 2020-09-18 17:43:55
 -->
 <template>
   <div>
@@ -17,6 +17,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator'
   name: 'Count-Item'
 })
 export default class extends Vue {
+  // default false
   @Prop({ default: false }) private count: number
 
   private onSubtract() {
